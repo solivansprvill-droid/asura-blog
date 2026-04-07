@@ -1,0 +1,36 @@
+# Jekyll 博客配置
+title: Asura Blog
+description: 简洁清爽的博客平台
+baseurl: ""
+url: "https://asura.forum"
+author: Solivan
+email: shengli621@foxmail.com
+
+# 主题配置
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 布局配置
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# 分页配置
+paginate: 10
+paginate_path: "/page:num/"
+
+# 时区
+timezone: Asia/Shanghai
+
+# 语言
+lang: zh-CN
+
+# 社交媒体链接
+social_links:
+  github: solivansprvill-droid
+
+# 头部导航
+header_pages:
+  - about.md
+  - archive.md
